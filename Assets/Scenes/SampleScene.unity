@@ -246,9 +246,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - enemyList:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - count: 5
+      health: 10
+      strength: 4
+      model: {fileID: 3518389858342934310, guid: 8b3a88e964e4031499cd06082118284c, type: 3}
+  - enemyList: []
 --- !u!4 &937563778
 Transform:
   m_ObjectHideFlags: 0
